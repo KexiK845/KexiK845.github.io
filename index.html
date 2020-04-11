@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/eccf2d8f3a.js" crossorigin="anonymous"></script>
+        <meta name="yandex-verification" content="95f1f87e7285de39" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+        <link rel="icon" href="imgs/icon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="kexik845, портфолио, моё портфолио">
+        <title>Моё портфолио</title>
+    </head>
+    <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="selected"><i class="far fa-address-card"></i>Портфолио</a></li>
+                </ul>
+            </nav>
+        <div class="index">
+            <img src="imgs/img.jpg" alt="">
+            <p>Name Surname</p>
+        </div> <br />
+        <div class="lesson">
+            <h1 align="center">
+                <span>Обо мне</span>
+            </h1>
+            <p>Информация о вас</p>
+        </div>
+        <div class="schedule">
+            <h1 align="center">
+                <span>Расписание</span>
+            </h1>
+            <table align="center">
+                <tr>
+                    <th>День</th>
+                    <th>Пн</th>
+                    <th>Вт</th>
+                    <th>Ср</th>
+                    <th>Чт</th>
+                    <th>Пт</th>
+                </tr>
+                <tr>
+                    <td>8 - 8:30</td>  
+                    <td class="selected">Учусь</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>9 - 10</td>  
+                    <td></td>
+                    <td class="selected">Практика</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:30 - 11:30</td>  
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Играю в игры</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12 - 2</td>  
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Программирую</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3 - 5</td>  
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Отдыхаю</td>
+                </tr>
+            </table>
+        </div>
+        <div class="znaniya">
+            <h1 align="center">
+                <span>Мои знания</span>
+            </h1>
+            <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="70"></progress>
+                </li>
+                <li>JavaScript <br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+                <li>Python <br />
+                    <progress min="0" max="100" value="10"></progress>
+                </li>
+            </ul>
+        </div>
+        <div class="formm">
+            <h1><span>Написать мне</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+                 
+            <form>
+                <input name="name" placeholder="Имя" type="text" required /><br/>
+                <input name="email" placeholder="Эл. почта" type="email" required /><br/>
+                <textarea name="message" placeholder="Сообщение" required ></textarea>
+                <input type="submit" value="Отправить" class="submit" />
+            </form>
+            <p>В данное время это недоступно</p>
+        </div>
+
+        <div class="follow" id="contacts">
+            <h1><span>Контакты</span></h1>
+            <div>
+                <a href="https://vk.com" target="_blank">
+                    <img alt="ВКонтакте" src="imgs/vk.png" />
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img alt="Facebook" src="imgs/facebook.png"/>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img alt="Twitter" src="imgs/twitter.png" />
+                </a>
+            </div>
+        </div>
+        <div class="content">
+        &copy; 2020 My Blog. All rights reserved.
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
