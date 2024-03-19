@@ -144,29 +144,8 @@ header .nav_button {
     text-align: center;
 }
 
-.footer_title {
-    font-size: 60px;
-    margin-bottom: 10px;
-}
-
-.footer_desc {
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-
-.footer_images img {
-    width: 40px;
-}
-
-.footer_images {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
 .copyright {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 15px;
 }
@@ -182,7 +161,7 @@ header .nav_button {
     padding: 15px;
     background-color: white;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .active {
