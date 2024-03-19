@@ -158,6 +158,7 @@ header .nav_button {
     background-color: white;
     color: black;
     margin-bottom: 100px;
+    border-radius: 10px;
 }
 
 .active {
