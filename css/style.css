@@ -53,6 +53,11 @@ header {
     text-decoration: none;
 }
 
+header .nav_button {
+    padding: 20px 25px;
+    font-size: 20px;
+}
+
 .main_block {
     text-align: center;
     margin-bottom: 130px;
