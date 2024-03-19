@@ -16,10 +16,6 @@ body {
     margin: 0 auto;
 }
 
-header {
-    padding-top: 40px;
-}
-
 .line {
     height: 10px;
     background-color: #d16b66;
