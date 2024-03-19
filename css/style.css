@@ -104,14 +104,13 @@ header .nav_button {
     gap: 20px;
     margin-bottom: 90px;
     color: black;
+    justify-content: center;
 }
 
 .card {
     background-color: white;
     text-align: center;
-    max-width: 450px;
-    margin: 0 auto;
-    padding: 30px 60px;
+    padding: 50px 60px;
     border-radius: 10px;
 }
 
