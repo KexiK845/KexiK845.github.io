@@ -17,9 +17,9 @@ body {
 }
 
 .line {
-    height: 10px;
+    height: 7px;
     background-color: #d16b66;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .nav {
@@ -33,7 +33,7 @@ body {
 }
 
 .logo {
-    width: 400px;
+    width: 350px;
 }
 
 .nav_menu {
@@ -64,7 +64,7 @@ header .nav_button {
     max-width: 1000px;
     margin: 0 auto;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .main_description {
@@ -86,7 +86,6 @@ header .nav_button {
 .main_img {
     margin: 0 auto;
     width: 100%;
-    margin-top: 100px;
 }
 
 .btn {
