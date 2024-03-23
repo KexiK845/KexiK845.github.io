@@ -61,8 +61,7 @@ header .nav_button {
 
 .main_title {
     font-size: 80px;
-    max-width: 1000px;
-    margin: 0 auto;
+    text-align: center;
     font-weight: 900;
     margin-bottom: 50px;
 }
