@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #074F57;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.main_page {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.mem {
+    animation: roll 5s infinite linear;
+    z-index: -100;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100px;
+    margin-top: 70px;
+}
+
+@keyframes roll {
+    from {
+        transform:rotate(0)
+    }
+    to {
+        transform:rotate(360deg)
+    }
+}
+
+.main_title {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.main_desc {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.start {
+    background-color: #077187;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.question_num {
+    font-size: 25px;
+}
+
+.question_title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.answers_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.answer {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.answer:hover {
+    opacity: 0.7;
+}
+
+.victorina {
+    margin-top: 50px;
+}
+
+.button_tomain {
+    background-color: #077187;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.lose_color {
+    color: red;
+}
+
+.gray {
+    opacity: 0;
+}
+
+.mem2 {
+    margin-top: -250px;
+}
+
+.final_title {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
